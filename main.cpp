@@ -12,14 +12,14 @@ int main (int argc, char*argv[])
     switch (operand) 
       { 
       case '+': 
-      cout« atoi (argv[1]) + atoi (argv[3])« endl; 
+      cout<< atoi (argv[1]) + atoi (argv[3])<< endl; 
         break; 
       case '-': 
-      cout« atoi (argv[1]) - atoi (argv[3])« endl; 
+      cout<< atoi (argv[1]) - atoi (argv[3])<< endl; 
         break; 
           default: 
-      cerr« "error"« endl; 
+      cerr<< "error"« endl; 
       }; 
     } 
-  else { cerr« "ERROR"« endl;}; 
+  else { cerr<<"ERROR"<< endl;}; 
 }
