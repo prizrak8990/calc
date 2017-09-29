@@ -1,5 +1,5 @@
 # calk
 
-main()
+int main()
 {
 }
