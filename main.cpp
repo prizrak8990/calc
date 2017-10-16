@@ -21,7 +21,7 @@ int main (int argc, char*argv[])
       cout<< atoi (argv[1]) * atoi (argv[3])<< endl;
          break;
       case '/':
-      cout<< atoi (argv[1]) * atoi (argv[3])<< endl;
+      cout<< atoi (argv[1]) / atoi (argv[3])<< endl;
           default: 
       cerr<< "error"« endl; 
       }; 
